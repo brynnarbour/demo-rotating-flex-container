@@ -1,0 +1,26 @@
+.row,
+.column {
+    display: flex;
+    gap: 1rem;
+    background-color: peachpuff;
+    margin-bottom: 2rem;
+}
+
+.flex-item {
+    /* width: calc((100% - 2rem) / 3); */
+    width: 300px;
+    background-color: rgb(223, 170, 190);
+    padding: .75rem;
+}
+
+.row {
+    justify-content: center;
+}
+
+.column {
+    /* justify-content: center; */
+    flex-direction: column;
+    /* when rotating to a column, both justify-content and align-items: rotate as well */
+    /* now to center on page use align-items instead of justify-content */
+    align-items: center;
+}
